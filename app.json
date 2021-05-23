@@ -36,9 +36,9 @@
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
       "required": false
     },
-    "CHUNK_SIZE": {
-      "description": "should be an integer",
-      "value": "128",
+    "DOWNLOAD_LOCATION": {
+      "description": "should be",
+      "value": "",
       "required": false
     },
     "ARIA_TWO_STARTED_PORT": {
@@ -63,12 +63,28 @@
       "description": "should be a single character.",
       "required": false
     },
+    "UPLOAD_COMMAND": {
+      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
+    "RENEWME_COMMAND": {
+      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
     "TG_OFFENSIVE_API": {
       "description": "should be an URL accepting the FormParams {i}, {m}, and {t}",
       "required": false
     },
     "LEECH_COMMAND": {
       "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
+    "CLONE_COMMAND_G": {
+      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
+    "TELEGRAM_LEECH_UNZIP_COMMAND": {
+      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
     },
     "INDEX_LINK": {
@@ -83,6 +99,10 @@
       "description": "Enter your custom tleech command like /tleech1@urgroupname and so on. Default is /tleech",
       "required": false
     },
+     "FREE_USER_MAX_FILE_SIZE": {
+      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "required": false
+    },
     "YTDL_COMMAND": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
       "required": false
@@ -95,16 +115,49 @@
       "description": "Enter your custom cancel command like cancel@urgroupname and so on. Default is /cancel.",
       "required": false
     },
+     "MAX_TG_SPLIT_FILE_SIZE": {
+      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "required": false
+    },
     "GET_SIZE_G": {
       "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "required": false
+    },
+    "SAVE_THUMBNAIL": {
+      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
+    "CLEAR_THUMBNAIL": {
+      "description": "Enter your custom leech command like /leech@urgroupname and so on. Default is /leech",
+      "required": false
+    },
+     "MAX_FILE_SIZE": {
+      "description": "Enter your custom getsize command like getsize@urgroupname and so on. Default is /getsize.",
+      "required": false
+    },
+     "TG_MAX_FILE_SIZE": {
+      "description": "and so .",
+      "required": false
+    },
+     "CHUNK_SIZE": {
+      "description": "should be an integer",
+      "value": "128",
       "required": false
     },
     "RCLONE_CONFIG": {
       "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
     },
+    "MAX_MESSAGE_LENGTH": {
+      "description": "En ",
+      "required": false
+    },
     "DESTINATION_FOLDER": {
       "description": "Enter your Cloud folder NAME(not ID😅) in which you want to upload/store your files.",
+      "required": false
+    },
+    "PROCESS_MAX_TIMEOUT": {
+      "description": "Enter your copied text from rclone config. Compulsory for /gleech as well as /tleech command ",
       "required": false
     },
     "CUSTOM_FILE_NAME": {
